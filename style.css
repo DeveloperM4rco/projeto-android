@@ -127,7 +127,7 @@ main a {
     font-weight: bold;
     color: var(--cor05);
     background-color: var(--cor01);
-    padding: 3px 4px;
+    padding: 1px 3px;
 }
 
 main a:hover {
