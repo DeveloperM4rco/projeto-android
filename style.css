@@ -49,16 +49,15 @@ header {
 }
 
 header > h1 {
+    /* Shorthand font: style -> varianty -> weight -> size -> family*/
     color: white;
-    font-family: var(--fonte_destaque);
-    font-size: 3em;
-    font-weight: normal;
+    font: normal normal normal 3em var(--fonte_destaque);
     margin-bottom: 20px;
     text-shadow: 3px 4px 8px rgba(0, 0, 0, 0.582);
 }
 
 header > p {
-    font: 1.2em var(--fonte_padrao);
+    font: normal normal normal 1.2em var(--fonte_padrao);
     color: white;
     max-width: 600px;
     padding: 0px 10px 37px;
@@ -98,7 +97,6 @@ main {
 }
 
 main h1 {
-    /* Shorthand font: style -> varianty -> weight -> size -> family*/
     font: normal normal normal normal 1.8em var(--fonte_robo);
     color: var(--cor05);
 }
